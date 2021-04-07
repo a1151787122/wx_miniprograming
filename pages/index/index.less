@@ -1,0 +1,57 @@
+.index_swiper{
+  swiper{
+    width: 750rpx;
+    height: 340rpx;
+    image{
+      width: 100%;
+    }
+  }
+}
+
+.index_cate{
+  display: flex;
+  navigator{
+    flex :1;
+    padding: 20rpx;
+    image{
+      width: 100%;
+    }
+  }
+}
+.index_floor{
+  .floor_group{
+    .floor_title{
+      padding:10rpx 0;
+      image{ 
+        width: 100%;
+      }
+    }
+    .floor_list{
+      //清除浮动 
+      overflow: hidden;
+      navigator{
+        float: left;
+        width: 33.33%;
+        // 后面四个超链接
+        &:nth-last-child(-n+4){
+          // 原图 大小232*368
+          // 232/368=33.33vw/height
+          // 第一张图片的高度 height:33.33vw*386/232/2
+          height:27.72711206896552vw;//不知道为什么 height:33.33vw*386/232  不能自动计算出来 需要自己计算然后写上去
+          border-left: 10rpx solid #fff;
+        }
+        &:nth-child(2),&:nth-child(3){
+          border-bottom: 5rpx solid #fff;
+        }
+        &:nth-child(4),&:nth-child(5){
+          border-top: 5rpx solid #fff;
+        }
+        image{
+          width: 100%;
+          height: 100%;
+          border-radius: 20rpx;
+        }
+      }  
+    }
+  }
+}

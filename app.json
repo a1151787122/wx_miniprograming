@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goos_detail/index",
+    "pages/goos_list/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/serch/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F9544E",
+    "navigationBarTitleText": "购物小程序",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "backgroundColor": "#eee",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/home1.png",
+      "selectedIconPath": "icon/home2.png"
+    },{
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "icon/car1.png",
+      "selectedIconPath": "icon/car2.png"
+    },{
+      "pagePath": "pages/user/index",
+      "text": "用户",
+      "iconPath": "icon/user1.png",
+      "selectedIconPath": "icon/user2.png"
+    },{
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "icon/cate1.png",
+      "selectedIconPath": "icon/cate2.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

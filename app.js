@@ -1,0 +1,6 @@
+wx-App({
+
+  onLaunch: function () {
+    
+  },
+})
